@@ -5,6 +5,12 @@ public class Person {
     String lastName;
     int age;
 
+    public Person(){
+        this.firstName = "Brendan";
+        this.lastName = "S";
+        this.age = 21;
+    }
+
     //Constructor
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
