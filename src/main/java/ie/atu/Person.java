@@ -18,7 +18,7 @@ public class Person {
         this.age = age;
     }
 
-    public void displayInfo() {
+       public void displayInfo() {
         System.out.println("Name: " +  firstName + " " + lastName + ", Age: " + age);
     }
 }
